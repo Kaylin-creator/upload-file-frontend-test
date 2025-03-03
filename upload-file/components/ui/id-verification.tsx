@@ -31,7 +31,7 @@ export default function IDVerification() {
   };
 
   return (
-    <Card className={cardStyles}>
+    <Card className="w-full max-w-md mx-auto border-0 shadow-lg rounded-xl overflow-hidden">
       <CardHeader className="bg-[#0A3D62] text-white">
         <CardTitle className="text-xl font-semibold">ID Verification</CardTitle>
         <CardDescription className="text-gray-200">
