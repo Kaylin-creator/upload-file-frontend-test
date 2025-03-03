@@ -23,7 +23,7 @@ export default function ResultAlert({ status }: ResultAlertProps) {
             <XCircle className="h-5 w-5 text-[#C0392B]" />
             <AlertTitle className="text-[#C0392B] font-semibold">Verification Failed</AlertTitle>
             <AlertDescription className="text-gray-700">
-              We could not verify your ID. Please try.
+              We could not verify your ID. Please try again or contact support.
             </AlertDescription>
           </Alert>
         )}
