@@ -32,14 +32,14 @@ export default function IDVerification() {
 
   return (
     <Card className={cardStyles}>
-      <CardHeader className={cardHeaderStyles}>
+      <CardHeader className="bg-[#0A3D62] text-white">
         <CardTitle className="text-xl font-semibold">ID Verification</CardTitle>
         <CardDescription className="text-gray-200">
           Upload a government-issued ID document for verification
         </CardDescription>
       </CardHeader>
       
-      <CardContent className={cardContentStyles}>
+      <CardContent className="space-y-4 p-6 bg-white">
         {state === "idle" && <FileUpload onFileChange={handleFileChange} />}
         {state === "processing" && <ProcessingState fileName={fileName} />}
         {(state === "approved" || state === "rejected") && <ResultAlert status={state} />}

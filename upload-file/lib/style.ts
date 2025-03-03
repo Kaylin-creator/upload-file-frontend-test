@@ -5,8 +5,7 @@ export const cardContentStyles = "space-y-4 p-6 bg-white";
 export const buttonStyles =
   "bg-[#0A3D62] hover:bg-[#0D4D7A] text-white font-medium rounded-md";
 
-export const borderStyles =
-  "border-2 border-dashed border-[#0A3D62] rounded-lg p-8 text-center flex flex-col items-center space-y-3";
+export const borderStyles = "border-2 border-dashed border-[#0A3D62] rounded-lg p-8 text-center flex flex-col items-center space-y-3";
 
 export const uploadIconStyles = "h-10 w-10 text-[#0A3D62] mx-auto";
 export const uploadTextStyles = "text-gray-500 text-sm";
