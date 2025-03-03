@@ -11,7 +11,7 @@ export default function FileUpload({ onFileChange }: FileUploadProps) {
   return (
     <div className={borderStyles}>
       <Upload className="h-10 w-10 text-[#0A3D62] mb-4" />
-      <p className="text-sm text-gray-600 mb-4">Drag and drop your ID, or click to browse</p>
+      <p className="text-sm text-gray-600 mb-4">Click to add to document</p>
       <Button className={buttonStyles}>
         <label className="cursor-pointer">
           Select Document
