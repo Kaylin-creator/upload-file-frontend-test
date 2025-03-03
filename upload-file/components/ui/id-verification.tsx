@@ -6,7 +6,6 @@ import FileUpload from "@/components/file-upload";
 import ProcessingState from "@/components/processing-state";
 import ResultAlert from "@/components/result-alert";
 import { Button } from "@/components/ui/button";
-import { cardStyles, cardHeaderStyles, cardContentStyles, buttonStyles } from "@/lib/style";
 
 export default function IDVerification() {
   const [state, setState] = useState<"idle" | "processing" | "approved" | "rejected">("idle");
